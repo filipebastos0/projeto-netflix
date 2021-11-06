@@ -1,0 +1,36 @@
+:root {
+    --vermelho: #E30914;
+    --preto: #000000;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header .menu {
+    display: flex;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 7px; 
+    justify-content: space-between;
+    
+}
+
+header nav a {
+    text-decoration: none;
+    color: #AAA;
+    margin: 4px;
+}
+
+header nav a:hover {
+    color: #fff;
+}
