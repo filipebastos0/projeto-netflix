@@ -114,5 +114,8 @@ main .info p:nth-child(1) {
     box-sizing: border-box;
 }
 
+.movies-carousel {
+    margin-top: 3px;
+}
 
 
