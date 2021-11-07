@@ -49,17 +49,18 @@ header nav a:hover {
     margin-top: 4px;
 }
 
-.rank {
-    display: flex;
+.info {
+    display: flex;    
     justify-content: space-between;
 }
 
-.rank img {
-    background-color: white;
+.info img {
+    background-color: rgba(255, 255, 255, 0.6);
     border-radius: 3px;
+    width: 30px;
 }
 
-.rank p:nth-child(1) {
+.info p:nth-child(1) {
     color: rgb(53, 201, 53);
 }
 
@@ -94,6 +95,7 @@ header nav a:hover {
     margin-right: 10px;
     cursor: pointer;
     transition: .4s ease all;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .button:hover {
