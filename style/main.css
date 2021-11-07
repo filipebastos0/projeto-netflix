@@ -15,7 +15,7 @@
 /* elementos base */
 body {
     background: var(--preto);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';
     color:#fff;
 }
 
@@ -33,34 +33,34 @@ header .menu-wrapper {
 header nav a {
     text-decoration: none;
     color: #AAA;
-    margin: 4px;
+    margin-right: 8px;
 }
 
 header nav a:hover {
     color: #fff;
 }
 
-.movie-wrapper {
+main .movie-wrapper {
     width: 500px;
     margin-left: 20px;
 }
 
-.movie-wrapper p {
+main .movie-wrapper p {
     margin-top: 4px;
 }
 
-.info {
+main .info {
     display: flex;    
     justify-content: space-between;
 }
 
-.info img {
+main .info img {
     background-color: rgba(255, 255, 255, 0.6);
     border-radius: 3px;
     width: 30px;
 }
 
-.info p:nth-child(1) {
+main .info p:nth-child(1) {
     color: rgb(53, 201, 53);
 }
 
@@ -70,7 +70,7 @@ header nav a:hover {
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/background-image.jpg');
 
-    height: 450px;
+    height: 400px;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -101,10 +101,20 @@ header nav a:hover {
 .button:hover {
    background-color: rgba(255,255,255,.80);
    color: #000000;
-   /*background-color: #fff;
-   color: #000000;*/
 }
 
 .button i {
     margin-right: 8px;
 }
+
+
+
+.movie-box {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+
+
+
