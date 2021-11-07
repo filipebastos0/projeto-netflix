@@ -68,7 +68,7 @@ main .info p:nth-child(1) {
 /* filme principal */
 .main-movie {
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/projeto-netflix/img/background-image.jpg');
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('https://www.themoviedb.org/t/p/original/yXSzo0VU1Q1QaB7Xg5Hqe4tXXA3.jpg');
 
     height: 400px;
     background-size: cover;
